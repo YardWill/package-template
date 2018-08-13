@@ -1,0 +1,11 @@
+{
+  "name": "package-tem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Yard",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc -watch",
+    "test": "jest"
+  }
+}
