@@ -5,8 +5,9 @@
   "author": "Yard",
   "license": "MIT",
   "scripts": {
+    "prepublish": "tsc && jest",
     "dev": "tsc -watch",
-    "test": "jest"
+    "test": "jest -watch"
   },
   "devDependencies": {
     "@types/jest": "^23.3.1",
