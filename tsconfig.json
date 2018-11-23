@@ -4,6 +4,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "target": "ES5",
+    "declaration": true
   },
   "include": [
     "./src/index.ts"
