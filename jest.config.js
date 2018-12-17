@@ -3,7 +3,7 @@ module.exports = {
   testMatch: ['<rootDir>/__test__/*'],
   collectCoverage: true,
   collectCoverageFrom: [
-    '<rootDir>/dist/*.js',
+    '<rootDir>/src/*.ts',
   ],
   preset: 'ts-jest',
   globals: {
