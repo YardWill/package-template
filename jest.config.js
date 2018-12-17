@@ -3,6 +3,12 @@ module.exports = {
   testMatch: ['<rootDir>/__test__/*'],
   collectCoverage: true,
   collectCoverageFrom: [
-    '<rootDir>/dist/*.js'
-  ]
+    '<rootDir>/dist/*.js',
+  ],
+  preset: 'ts-jest',
+  globals: {
+    'ts-jest': {
+      tsConfig: 'tsconfig.json',
+    },
+  },
 };
